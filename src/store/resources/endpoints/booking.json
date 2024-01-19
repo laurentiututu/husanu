@@ -1,0 +1,13 @@
+{
+  "api": "https://husanu.ltct.ro/api",
+  "all_public": "/bookings/public",
+  "all_admin": "/bookings",
+  "assign": "/bookings/{{id}}/assign",
+  "id": "/bookings/{{id}}",
+  "settings": {
+    "all_public": "/bookingSettings/public",
+    "all_admin": "/bookingSettings",
+    "rule": "/bookingSettings/rule",
+    "exception": "/bookingSettings/exception"
+  }
+}

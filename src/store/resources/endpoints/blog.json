@@ -1,0 +1,25 @@
+{
+  "api": "https://husanu.ltct.ro/api",
+  "article": {
+    "all_public": "/articles/public",
+    "article_slug": "/articles/public/{{slug}}",
+    "new": "/articles",
+    "all_admin": "/articles",
+    "id": "/articles/{{id}}",
+    "cover": "/articles/{{id}}/cover"
+  },
+  "category": {
+    "all_public": "/categories/public",
+    "new": "/categories",
+    "all_admin": "/categories",
+    "id": "/categories/{{id}}"
+  },
+  "comment": {
+    "new": "/comments/public",
+    "all_public": "/comments/public",
+    "all_admin": "/comments",
+    "id": "/comments/{{id}}",
+    "status": "/comments/{{id}}/{{status}}"
+  },
+  "file": "/files"
+}

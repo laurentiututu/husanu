@@ -1,0 +1,9 @@
+{
+  "api": "https://husanu.ltct.ro/api",
+  "all_public": "/users/public",
+  "me_data": "/users/me/data",
+  "me": "/users/me",
+  "picture": "/users/me/profilePicture",
+  "all_admin": "/users",
+  "id": "/users/{{id}}"
+}
